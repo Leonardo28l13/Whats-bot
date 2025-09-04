@@ -8,7 +8,7 @@ echo "{
 		'android_ndk_path': ''
 	}
 }" >> ~/.gyp/include.gypi
-rm -rf ~/storage/dcim/LBOT &&
+rm -rf ~/LBOT &&
 wget https://github.com/victorsouzaleal/lbot-whatsapp/releases/download/$CURRENT_VERSION/LBOT-v$CURRENT_VERSION.zip -P ~ &&
-unzip ~/storage/dcim/LBOT-v$CURRENT_VERSION.zip -d ~/storage/dcim/LBOT &&
-rm ~/storage/dcim/LBOT-v$CURRENT_VERSION.zip
+unzip ~/LBOT-v$CURRENT_VERSION.zip -d ~/LBOT &&
+rm ~/LBOT-v$CURRENT_VERSION.zip
