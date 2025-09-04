@@ -10,5 +10,5 @@ echo "{
 }" >> ~/.gyp/include.gypi
 rm -rf ~/LBOT &&
 wget https://github.com/Leonardo28l13/Whats-bot/blob/main/LBOT-v3.4.6.zip -P ~ &&
-unzip ~/LBOT-v$CURRENT_VERSION.zip -d ~/LBOT &&
-rm ~/LBOT-v$CURRENT_VERSION.zip
+unzip ~/LBOT-v3.4.6.zip -d ~/LBOT &&
+rm ~/LBOT-v3.4.6.zip
