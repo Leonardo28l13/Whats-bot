@@ -9,6 +9,6 @@ echo "{
 	}
 }" >> ~/.gyp/include.gypi
 rm -rf ~/LBOT &&
-wget https://github.com/Leonardo28l13/lbot-whatsapp/releases/download/$CURRENT_VERSION/LBOT-v$CURRENT_VERSION.zip -P ~ &&
+git clone https://github.com/Leonardo28l13/lbot-whatsapp/ &&
 unzip ~/LBOT-v$CURRENT_VERSION.zip -d ~/LBOT &&
 rm ~/LBOT-v$CURRENT_VERSION.zip
