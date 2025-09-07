@@ -1,5 +1,5 @@
 #!/bin/sh
-
+set -x
 # PASSO 1: Garante que todas as ferramentas necessárias estão instaladas e atualizadas
 echo "Verificando e atualizando dependências..."
 pkg update && pkg upgrade -y
